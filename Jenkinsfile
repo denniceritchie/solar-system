@@ -21,7 +21,7 @@ pipeline {
 
     stages {
         stage('Installing Dependencies') {
-            options { timestamps() }
+
             steps {
                 sh 'npm install --no-audit'
             }
